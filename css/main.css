@@ -13,10 +13,48 @@ header {
     padding: 0px 50px 50px;
 }
 
+nav {
+    padding: 30px 0px 0px 90%;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+}
+
+li {
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.boton1 {
+    background: rgb(248, 248, 246);
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.boton2 {
+    background-color: rgb(255, 208, 0);
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 .imagenDelHeader {
     position: absolute;
-    left: 45%;
-    bottom: 20%;
+    left: 50%;
+    bottom: 50%;
+    right: 0%;
+    top: 10em;
     width: 600px;
 
 }
@@ -48,16 +86,20 @@ span {
 }
 
 .seccion1 {
-    padding: 50px;
-    background-color: rgb(207, 228, 247);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    margin: 40px 0 0;
+    padding: 70px 150px;
+    padding-top: 80px;
+    background-color: rgb(206, 248, 238);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .imagenCaja1 {
     width: 200px;
+    
 }
 
 .imagenCaja2 {
@@ -84,7 +126,7 @@ span {
     text-align: center;
     padding: 50px;
     border-radius: 20px;
-    box-shadow: 300px solid black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .caja2 {
@@ -93,6 +135,7 @@ span {
     text-align: center;
     padding: 50px;
     border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .caja3 {
@@ -101,6 +144,7 @@ span {
     text-align: center;
     padding: 50px;
     border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
 }
 
 h2 {
