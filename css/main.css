@@ -239,7 +239,7 @@ h3 {
 
 .imagen-redes {
     width: 220px;
-    height: 40px;
+    height: 47px;
     position: relative;
     left: -30%;
     right: 50%;
@@ -247,3 +247,85 @@ h3 {
     display: flex;
 }
 /* CORREGIR NAV Y AGREGAR FOOTER */
+
+.footer-mobile {
+    display: none;
+}
+
+/* RESPONSIVE */
+
+
+@media only screen and (max-width: 700px) {
+    nav > ul {
+        display: none;
+    }
+    .imagenDelHeader {
+        display: none;
+    }
+    .seccion1 {
+        display: inline-block;
+        justify-content: center;
+        margin-top: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .caja1 {
+        margin-bottom: 3em;
+        box-sizing: border-box;
+        margin: 10px auto;
+    }
+    .caja2 {
+        margin-bottom: 3em;
+        margin: 30px auto;
+    }
+    .caja3 {
+        margin-bottom: 3em;
+        margin: 10px auto;
+    }
+    
+    footer {
+        padding: 30px 0 50px 0;
+    }
+    .footer-mobile {
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin
+    }
+    .container-footer2 {
+        display: none;
+        
+    }
+    .parrafo-footer {
+        display: none;
+    }
+    .parrafo-footer2 {
+        display: none;
+    }
+    .icono-footer {
+        display: flex;
+        margin-left: 70px;
+    }
+    .iconos-mobile {
+        width: 150px;
+        padding-top: 40px;
+        position: relative;
+        left: 5%;
+    }
+    h3 {
+        position: relative;
+        top: -50px;
+        left: 37%;
+        display: inline;
+    }
+    h1 {
+        width: 30px;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+}
